@@ -1,0 +1,7 @@
+AuthUserFile /home/etudiants/SECRET/public_html/dutaf/admin/htpasswd
+AuthGroupFile /dev/null
+AuthName "Acces securise a mon site Dutaf"
+AuthType Basic
+<LIMIT GET POST>
+Require valid-user
+</LIMIT>
